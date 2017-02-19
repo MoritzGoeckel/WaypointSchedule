@@ -1,4 +1,4 @@
-#discription h1, .discription_item, #waypoints h1, #waypoints a{
+#discription h1, .discription_item, #waypoints h1, #waypoints a, #fork a{
     display: block;
     padding: 10px 10px 0px 10px;
     font-size: 18px;
@@ -27,9 +27,14 @@
     margin-top: 50px;
 }
 
-#waypoints{
+#waypoints, #fork{
     width: 50%; 
     float:left;
+}
+
+#fork{
+    position: absolute;
+    bottom: 10px;
 }
 
 #waypoints input{
