@@ -1,10 +1,10 @@
-#discription h1, .discr_item, #waypoints h1, #waypoints a{
+#discription h1, .discription_item, #waypoints h1, #waypoints a{
     display: block;
     padding: 10px 10px 0px 10px;
     font-size: 18px;
 }
 
-.discr_item b{
+.discription_item b{
     color: green;
 }
 
@@ -23,13 +23,12 @@
 
 #discription{
     width: 50%; 
-    height: 50%; 
     float:left;
+    margin-top: 50px;
 }
 
 #waypoints{
     width: 50%; 
-    height: 50%; 
     float:left;
 }
 

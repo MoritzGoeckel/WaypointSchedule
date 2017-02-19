@@ -1,11 +1,14 @@
 <html>
 <head>
-    <title></title>
+    <title>Hermes TSP</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
+    <!-- The div that contains the map -->
     <div id="map"></div>
+
+    <!-- The div that contains the waypoints and the submit link -->
     <div id="waypoints"><h1>Edit waypoints</h1>
         <input type="text" placeholder="Start" id="start">
         <input type="text" placeholder="Waypoint" class="waypoint_input">
@@ -19,16 +22,22 @@
         <a href="#" onclick="javascript:calcRoute()">Calculate</a>
 
     </div>
+
+    <!-- The div that contains the calculated route and timetable -->
     <div id="discription"></div>
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCi2i6YaqznCoWVgxluCt4n87Pz3c11eAU&callback=start"
+    <!-- Google Maps API -->
+    <!-- mapLoaded() as callback -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCi2i6YaqznCoWVgxluCt4n87Pz3c11eAU&callback=mapLoaded"
         async defer></script>
 
+    <!-- JQuery 3.1 -->
     <script
         src="https://code.jquery.com/jquery-3.1.1.min.js"
         integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
         crossorigin="anonymous"></script>
-
+    
+    <!-- My functions -->
     <script src="javascript.js"></script>
 </body>
 </html>
