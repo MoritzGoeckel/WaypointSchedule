@@ -1,7 +1,18 @@
-.discr_item{
+#discription h1, .discr_item, #waypoints h1, #waypoints a{
     display: block;
     padding: 10px 10px 0px 10px;
     font-size: 18px;
+}
+
+.discr_item b{
+    color: green;
+}
+
+#discription h1, #waypoints h1{
+    font-size: 30px;
+    margin: 0px;
+    color: green;
+    letter-spacing: 10px;
 }
 
 #map{
@@ -12,6 +23,25 @@
 
 #discription{
     width: 50%; 
-    height: 100%; 
+    height: 50%; 
     float:left;
+}
+
+#waypoints{
+    width: 50%; 
+    height: 50%; 
+    float:left;
+}
+
+#waypoints input{
+    margin: 10px 10px 0px 10px;
+    display: block;
+    font-size: 18px;
+    width: 90%;
+}
+
+#waypoints a, #waypoints a:visited{
+    font-weight: bold;
+    font-size: 20px;
+    color: blue;
 }
