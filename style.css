@@ -1,0 +1,17 @@
+.discr_item{
+    display: block;
+    padding: 10px 10px 0px 10px;
+    font-size: 18px;
+}
+
+#map{
+    width: 50%; 
+    height: 100%;
+    float:right;
+}
+
+#discription{
+    width: 50%; 
+    height: 100%; 
+    float:left;
+}
