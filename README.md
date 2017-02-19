@@ -13,3 +13,6 @@ Type a start adress in the first input field, add as many waypoint adresses as y
 
 ## Example
 ![example](https://raw.githubusercontent.com/MoritzGoeckel/WaypointSchedule/master/demo.PNG)
+
+## More route optimization
+I created a repository that is mainly dealing with the problem of route optimization with many waypoints. Also known as the Travelling Salesman Problem or TSP. Check it out: [MoritzGoeckel/TravellingSalesman](https://github.com/MoritzGoeckel/TravellingSalesman)
